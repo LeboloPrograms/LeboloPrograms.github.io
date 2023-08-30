@@ -1,0 +1,37 @@
+html {
+    background: #E1EFF6;
+}
+
+body {
+    background: #ABDAFC;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    color: darkslategray;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 950px;
+    max-height: none;
+    padding: 2em 2em 4em;
+}
+
+.topnav {
+  background-color: #83BCFF;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: snow;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #80FFE8;
+  color: black;
+}
+.topnav a.active {
+  background-color: #ECCBD9;
+  color: azure;
+}
